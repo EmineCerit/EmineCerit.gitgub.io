@@ -8,10 +8,8 @@
 
 <div style="text-align: justify">
   
-* Implemented a CNN algorithm to classify urban sounds based on 8732 labeled sound excerpts from 10 classes
-  
-* Converted sound excerpts to spectrograms using librosa library  
-  
+* Implemented a CNN algorithm to classify urban sounds based on 8732 labeled sound excerpts from 10 classes  
+* Converted sound excerpts to spectrograms using librosa library    
 * Performed gray scale conversion, resizing and normalization on the spectrograms
 </div>
 
@@ -37,6 +35,7 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Regression/tree/main/House%20Prices%20Prediction)
 
 <div style="text-align: justify">
+
 * Examined the performance of regression algorithms (GBM, Random Forest, XGBoost, Light GBM) by applying RMSE metrics to predict prices based on 81 features and found Light GBM to have the best performance 
 * introducing +10 new attributes, resulting in increase in R2 score from 86% to 90% 
 * Performed Exploratory Data Analysis and conducted feature engineering studies  
@@ -68,6 +67,7 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/CRM)
 
 <div style="text-align: justify">
+
 * Processed, cleaned and formatted data using pandas
 * Predicted the expected number of transactions for each customer using BG/NBD (Beta Geometric / Negative Binomial Distribution) Model and the expected average profit by using Gamma-Gamma submodel within 6-months 
 * Predicted CLTV values to identify the customers who can generate the most revenue in 6-months.</div>
@@ -80,6 +80,7 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/CRM)
 
 <div style="text-align: justify">
+
 * Compared RFM and K-Means for a customer segmentation case based on online retail data. 10 and 6 clusters emerged with RFM technique and K-Means technique, respectively. As a result, the results obtained with the K-Means Technique were slightly more comprehensive than those obtained with the RFM.</div>
 <br>
 <center><img src="images/Kmeans.png"></center>
@@ -88,7 +89,7 @@
 ---
 ### Customer Segmentation with RFM Analyse
 
-[![View on GitHub](https://github.com/EmineCerit/CRM)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/CRM)
 
 <div style="text-align: justify"> 
 
@@ -106,7 +107,7 @@
 
 <div style="text-align: justify">
 
-  * Performed AB Testing on Facebook's current and alternative bidding type to determine if there is a significant difference between the two options and which of the two options will increase clicks and purchases.</div>
+* Performed AB Testing on Facebook's current and alternative bidding type to determine if there is a significant difference between the two options and which of the two options will increase clicks and purchases.</div>
 <br>
 <center><img src="images/AB Test.png"/></center>
 <br>
