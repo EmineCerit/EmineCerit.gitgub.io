@@ -1,108 +1,136 @@
 # Portfolio
 ---
+## Classifications
+
+### Urban Sounds Classification
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Classification/tree/main/Urban%20Sound%20Classification%20using%20CNN)
+
+<div style="text-align: justify">* Implemented a CNN algorithm to classify urban sounds based on 8732 labeled sound excerpts from 10 classes 
+* Converted sound excerpts to spectrograms using librosa library 
+* Performed gray scale conversion, resizing and normalization on the spectrograms
+</div>
+
+<center><img src="images/Garment.png"/></center>
+
+---
+### Garments_worker_productivity
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/NLP/tree/main/Sentiment%20Analysis%20and%20Modeling%20for%20Amazon%20Reviews)
+
+<div style="text-align: justify">* Analysed and predicted the productivity performance of the working teams in a factory by transforming the productivity range (0-1) into different classes. 
+* Examined the performance of the classification algorithms (Logistic Regression, Decision Tree Classifiers, Random Forests, Support Vector Machines, K-Nearest Neighbors, Gaussian Naive Bayes, LinearDiscriminantAnalysis) on the f1 metric and it was found that the best performance was the Random Forest Algorithm.</div>
+
+<center><img src="images/Garment.png"/></center>
+
+---
+## Regression
+
+### House Price Prediction
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Regression/tree/main/House%20Prices%20Prediction)
+
+<div style="text-align: justify">* Examined the performance of regression algorithms (GBM, Random Forest, XGBoost, Light GBM) by applying RMSE metrics to predict prices based on 81 features and found Light GBM to have the best performance 
+* introducing +10 new attributes, resulting in increase in R2 score from 86% to 90% 
+* Performed Exploratory Data Analysis and conducted feature engineering studies  
+* Conducted automated hyperparameter tuning and applied stacking & ensemble learning 
+* Visualized data using Tableau and Python libraries, created a dashboard</div>
+
+<center><img src="images/Garment.png"/></center>
+
+---
 ## Natural Language Processing
 
-### CS224n: Natural Language Processing with Deep Learning
+### Sentiment Analysis and Modeling for Amazon Reviews
 
-My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/NLP/tree/main/Sentiment%20Analysis%20and%20Modeling%20for%20Amazon%20Reviews)
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
+<div style="text-align: justify">* Conducted sentiment analysis in order to classify the negative and positive reviews of the customers for the products in the electronics category of Amazon. 
+* Implemented a regression model (Random Forest) with the 90% f1 score to predict whether a new comment is negative or positive is by using word vectorization methods as count vectors, TF_IDF and TF-IDF N-Gram.</div>
 
-**Neural Machine Translation:** An NMT system which translates texts from Spanish to English using a Bidirectional LSTM encoder for the source sentence and a Unidirectional LSTM Decoder with multiplicative attention for the target sentence ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)).
 
-**Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
-
-<center><img src="images/nlp.png"/></center>
+<center><img src="images/NLP.png"/></center>
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
+## Customer Relationship Management (CRM)
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
+### CLTV Prediction with BG/NBD and Gamma&Gamma Models
 
-<div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/CRM)
 
-<center><img src="images/BERT-classification.png"/></center>
+<div style="text-align: justify">•	Processed, cleaned and formatted data using pandas
+* Predicted the expected number of transactions for each customer using BG/NBD (Beta Geometric / Negative Binomial Distribution) Model and the expected average profit by using Gamma-Gamma submodel within 6-months 
+* Predicted CLTV values to identify the customers who can generate the most revenue in 6-months.</div>
 
----
-### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
-
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
-
-<div style="text-align: justify">First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.</div>
-<br>
-<center><img src="images/fb-food-trends.png"></center>
-<br>
+<center><img src="images/CLTV.png"/></center>
 
 ---
-### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
+### RFM vs. K-Means in Customer Segmentation
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-spam-nlp.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/CRM)
 
-<div style="text-align: justify">In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.</div>
+<div style="text-align: justify">* Compared RFM and K-Means for a customer segmentation case based on online retail data. 10 and 6 clusters emerged with RFM technique and K-Means technique, respectively. As a result, the results obtained with the K-Means Technique were slightly more comprehensive than those obtained with the RFM.</div>
 <br>
-<center><img src="images/detect-spam-nlp.png"/></center>
+<center><img src="images/Kmeans.png"></center>
 <br>
 
 ---
-## Data Science
+### Customer Segmentation with RFM Analyse
 
-### Credit Risk Prediction Web App
+[![View on GitHub](https://github.com/EmineCerit/CRM)
 
-[![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://github.com/chriskhanhtran/credit-risk-prediction/blob/master/documents/Notebook.ipynb)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/credit-risk-prediction)
-
-<div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
+<div style="text-align: justify"> * Applied RFM analysis in order to include customers with common behaviors in the same groups and segment them to develop special sales and marketing techniques for these groups</div>
 <br>
-<center><img src="images/credit-risk-webapp.png"/></center>
+<center><img src="images/Rfm.png"/></center>
 <br>
 
 ---
-### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
+## Sorting & Rating & AB-Testing
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/ames-house-price.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
+### AB Test of Advertisement Bidding
 
-<div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/SORTING_RATING_AB-TESTING/tree/main/AB%20TEST)
+
+<div style="text-align: justify">* Performed AB Testing on Facebook's current and alternative bidding type to determine if there is a significant difference between the two options and which of the two options will increase clicks and purchases.</div>
 <br>
-<center><img src="images/ames-house-price.jpg"/></center>
-<br>
-
----
-### Predict Breast Cancer with RF, PCA and SVM using Python
-
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/breast-cancer.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb)
-
-<div style="text-align: justify">In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.</div>
-<br>
-<center><img src="images/breast-cancer.png"/></center>
+<center><img src="images/AB Test.png"/></center>
 <br>
 
 ---
-### Business Analytics Conference 2018: How is NYC's Government Using Money?
+### Rating Products & Sorting Reviews with Wilson Lower Bound
 
-[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/bac2018.pdf)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/SORTING_RATING_AB-TESTING/tree/main/Rating%20Products%20%26%20Sorting%20Reviews%20with%20Wilson%20Lower%20Bound)
 
-<div style="text-align: justify">In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.</div>
+<div style="text-align: justify">* Calculated time-based weighted product ratings
+* Determined the first 20 reviews that will be displayed on the product details using Wilson lower bound method.</div>
 <br>
-<center><img src="images/bac2018.JPG"/></center>
+<center><img src="images/Sorting.png"/></center>
 <br>
 
 ---
-## Filmed by me
 
-[![View My Films](https://img.shields.io/badge/YouTube-View_My_Films-grey?logo=youtube&labelColor=FF0000)](https://www.youtube.com/watch?v=vfZwdEWgUPE)
+## Recommendation-Systems
 
-<div style="text-align: justify">Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.</div>
+### Basket Analysis with Association Rule Learning
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Recommendation-Systems/tree/main/Basket%20Analysis%20with%20Association%20Rule%20Learningb)
+
+<div style="text-align: justify">•	Preparing the data in accordance with Association Rule Learning data structure requirements
+* Extracted association rules using Apriori function and suggested a product to users at the basket stage.</div>
+<br>
+<center><img src="images/ARL.png"/></center>
 <br>
 
-- [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
-- [The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
-- [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
-- [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
+---
+### Matrix Factorization Based Movie Recommender
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Recommendation-Systems/tree/main/Movie%20Recommender%20Matrix%20Factorization%20Based)
+
+<div style="text-align: justify">* Developed a recommendation system that gives estimated ratings for a given user and movie, based on the single value decomposition by using Surprise Library.</div>
+<br>
+<center><img src="images/Matrix Factorization.png"/></center>
+<br>
 
 ---
-<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
+
+
