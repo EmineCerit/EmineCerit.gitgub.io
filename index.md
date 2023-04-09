@@ -2,6 +2,22 @@
 ---
 ## Classifications
 
+### Telco Customer Churn Prediction
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Classification/tree/main/Telco%20Customer%20Churn%20Prediction)
+
+<div style="text-align: justify">
+  
+* Developed a predictive model to classify the potential churn customers based on numerical and categorical features using CatBoostClassifier
+* Compared the performance of base model and the model with feature engineering and achieved %2 better f1 score with the new model
+* Five of the newly created features are in the top 10 in feature importance ranking.
+* Analyzed data by creating a PowerBi dashboard
+
+</div>
+
+<center><img src="images/Churn.png"/></center>
+
+---
 ### Urban Sounds Classification
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Classification/tree/main/Urban%20Sound%20Classification%20using%20CNN)
