@@ -8,10 +8,13 @@
 
 <div style="text-align: justify">
   
-- Developed a predictive model to classify the potential churn customers based on numerical and categorical features using CatBoostClassifier 
-- Compared the performance of base model and the model with feature engineering and achieved %2 better f1 score with the new model 
-- Five of the newly created features are in the top 10 in feature importance ranking. 
-- Analyzed data by creating a PowerBi dashboard 
+* Developed a predictive model to classify the potential churn customers based on numerical and categorical features using CatBoostClassifier 
+  
+* Compared the performance of base model and the model with feature engineering and achieved %2 better f1 score with the new model 
+  
+* Five of the newly created features are in the top 10 in feature importance ranking. 
+  
+* Analyzed data by creating a PowerBi dashboard 
 
 </div>
 
@@ -25,7 +28,9 @@
 <div style="text-align: justify">
   
 * Implemented a CNN algorithm to classify urban sounds based on 8732 labeled sound excerpts from 10 classes  
+  
 * Converted sound excerpts to spectrograms using librosa library    
+  
 * Performed gray scale conversion, resizing and normalization on the spectrograms
 </div>
 
@@ -38,7 +43,8 @@
 
 <div style="text-align: justify">
  
-* Analysed and predicted the productivity performance of the working teams in a factory by transforming the productivity range (0-1) into different classes. 
+* Analysed and predicted the productivity performance of the working teams in a factory by transforming the productivity range (0-1) into different classes.
+  
 * Examined the performance of the classification algorithms (Logistic Regression, Decision Tree Classifiers, Random Forests, Support Vector Machines, K-Nearest Neighbors, Gaussian Naive Bayes, LinearDiscriminantAnalysis) on the f1 metric and it was found that the best performance was the Random Forest Algorithm.</div>
 
 <center><img src="images/Garment.png"/></center>
@@ -53,9 +59,13 @@
 <div style="text-align: justify">
 
 * Examined the performance of regression algorithms (GBM, Random Forest, XGBoost, Light GBM) by applying RMSE metrics to predict prices based on 81 features and found Light GBM to have the best performance 
+  
 * introducing +10 new attributes, resulting in increase in R2 score from 86% to 90% 
+  
 * Performed Exploratory Data Analysis and conducted feature engineering studies  
+  
 * Conducted automated hyperparameter tuning and applied stacking & ensemble learning 
+  
 * Visualized data using Tableau and Python libraries, created a dashboard</div>
 
 <center><img src="images/HPP.png"/></center>
@@ -70,6 +80,7 @@
 <div style="text-align: justify">
 
 * Conducted sentiment analysis in order to classify the negative and positive reviews of the customers for the products in the electronics category of Amazon. 
+  
 * Implemented a regression model (Random Forest) with the 90% f1 score to predict whether a new comment is negative or positive is by using word vectorization methods as count vectors, TF_IDF and TF-IDF N-Gram.</div>
 
 
@@ -85,7 +96,9 @@
 <div style="text-align: justify">
 
 * Processed, cleaned and formatted data using pandas
+  
 * Predicted the expected number of transactions for each customer using BG/NBD (Beta Geometric / Negative Binomial Distribution) Model and the expected average profit by using Gamma-Gamma submodel within 6-months 
+  
 * Predicted CLTV values to identify the customers who can generate the most revenue in 6-months.</div>
 
 <center><img src="images/CLTV.png"/></center>
@@ -136,6 +149,7 @@
 <div style="text-align: justify">
 
 * Calculated time-based weighted product ratings
+  
 * Determined the first 20 reviews that will be displayed on the product details using Wilson lower bound method.</div>
 <br>
 <center><img src="images/Sorting.png"/></center>
@@ -152,6 +166,7 @@
 <div style="text-align: justify">
   
 * Preparing the data in accordance with Association Rule Learning data structure requirements
+  
 * Extracted association rules using Apriori function and suggested a product to users at the basket stage.</div>
 <br>
 <center><img src="images/ARL.png"/></center>
