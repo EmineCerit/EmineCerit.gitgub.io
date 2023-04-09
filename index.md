@@ -58,7 +58,7 @@
 * Conducted automated hyperparameter tuning and applied stacking & ensemble learning 
 * Visualized data using Tableau and Python libraries, created a dashboard</div>
 
-<center><img src="images/House Price Prediction.png"/></center>
+<center><img src="images/HPP.png"/></center>
 
 ---
 ## Natural Language Processing
