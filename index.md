@@ -8,10 +8,10 @@
 
 <div style="text-align: justify">
   
-* Developed a predictive model to classify the potential churn customers based on numerical and categorical features using CatBoostClassifier
-* Compared the performance of base model and the model with feature engineering and achieved %2 better f1 score with the new model
-* Five of the newly created features are in the top 10 in feature importance ranking.
-* Analyzed data by creating a PowerBi dashboard
+- Developed a predictive model to classify the potential churn customers based on numerical and categorical features using CatBoostClassifier 
+- Compared the performance of base model and the model with feature engineering and achieved %2 better f1 score with the new model 
+- Five of the newly created features are in the top 10 in feature importance ranking. 
+- Analyzed data by creating a PowerBi dashboard 
 
 </div>
 
