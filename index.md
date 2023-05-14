@@ -184,6 +184,18 @@
 <center><img src="images/Matrix Factorization.png"/></center>
 <br>
 
+## Time Series
+
+### Demand Forecasting with LightGBM
+
+[![View on GitHub]([https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Time_Series/tree/main/Demand%20Forecasting%20with%20LightGBM))
+
+<div style="text-align: justify">
+  
+* Developed a 3-month demand forecasting model for the relevant retailer using the time series and machine learning techniques. The data set includes 5 years of data for 10 different stores and 50 different products.</div>
+<br>
+<center><img src="images/"Demand_Forecasting.png"/></center>
+<br>
 ---
 
 
