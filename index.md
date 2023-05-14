@@ -188,7 +188,7 @@
 
 ### Demand Forecasting with LightGBM
 
-[![View on GitHub]([https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Time_Series/tree/main/Demand%20Forecasting%20with%20LightGBM))
+[![View on GitHub]([https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/EmineCerit/Time_Series/tree/main/Demand%20Forecasting%20with%20LightGBM)
 
 <div style="text-align: justify">
   
