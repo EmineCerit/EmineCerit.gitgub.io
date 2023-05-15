@@ -194,7 +194,7 @@
   
 * Developed a 3-month demand forecasting model for the relevant retailer using the time series and machine learning techniques. The data set includes 5 years of data for 10 different stores and 50 different products.</div>
 <br>
-<center><img src="images/"Demand_Forecasting.png"/></center>
+<center><img src="images/Demand_Forecasting.png"/></center>
 <br>
 ---
 
